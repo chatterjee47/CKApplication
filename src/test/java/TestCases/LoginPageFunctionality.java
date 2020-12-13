@@ -4,14 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import BaseClass.BrowserSetup;
 import PageObjects.LoginPage;
-import utility.WaitCommand;
+
 
 public class LoginPageFunctionality{
     WebDriver driver;
 	LoginPage loginpage;
 	BrowserSetup BS;
 	
-	WaitCommand stop;
 
 	@BeforeMethod
 	public void HomePageNavigation() throws Throwable {
